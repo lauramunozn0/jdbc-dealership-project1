@@ -1,6 +1,6 @@
 package com.pluralsight.db;
 
-import com.yearup.dealership.models.SalesContract;
+import com.pluralsight.models.SalesContract;
 
 import javax.sql.DataSource;
 import java.sql.Connection;

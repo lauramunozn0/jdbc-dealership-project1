@@ -1,4 +1,4 @@
-package com.yearup.dealership.models;
+package com.pluralsight.models;
 
 import java.time.LocalDate;
 

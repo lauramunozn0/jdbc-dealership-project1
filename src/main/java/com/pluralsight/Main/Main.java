@@ -1,16 +1,16 @@
-package com.pluralsight.db.Main;
+package com.pluralsight.Main;
 
-import com.yearup.dealership.db.InventoryDao;
-import com.yearup.dealership.db.LeaseDao;
-import com.yearup.dealership.db.SalesDao;
-import com.yearup.dealership.db.VehicleDao;
-import com.yearup.dealership.models.LeaseContract;
-import com.yearup.dealership.models.SalesContract;
-import com.yearup.dealership.models.Vehicle;
+
+
+import com.pluralsight.db.InventoryDao;
+import com.pluralsight.db.LeaseDao;
+import com.pluralsight.db.SalesDao;
+import com.pluralsight.db.VehicleDao;
+import com.pluralsight.models.LeaseContract;
+import com.pluralsight.models.SalesContract;
+import com.pluralsight.models.Vehicle;
 import org.apache.commons.dbcp2.BasicDataSource;
 
-import javax.sql.DataSource;
-import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Scanner;
